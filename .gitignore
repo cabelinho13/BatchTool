@@ -1,0 +1,52 @@
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Ambiente virtual
+venv/
+.env/
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+*.spec
+*.whl
+
+# Dados e arquivos grandes
+*.onnx
+*.bin
+*.pt
+*.ckpt
+
+# Pastas de saída e cache
+output/
+logs/
+cache/
+whisper_base_ct2/
+*.metrics
+*.json
+*.txt
+
+# Arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Ferramentas e testes locais
+test_*.py
+run_test_*.py
+*.ipynb
+*.md
+
+# IDEs e configs locais
+.vscode/
+.idea/
+
+# Ignorar diretórios específicos do seu projeto
+models/
+resources/
+assets/
+3.18/
