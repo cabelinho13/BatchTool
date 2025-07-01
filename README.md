@@ -20,6 +20,9 @@ BatchTool é uma aplicação desktop com GUI para criadores de conteúdo — esp
 
 ---
 
+![image](https://github.com/user-attachments/assets/7315383c-7a77-4bf6-b8f8-94842e63bd39)
+
+
 ## 📂 Estrutura de Pastas
 
 ```plaintext
