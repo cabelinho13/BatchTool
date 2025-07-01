@@ -67,40 +67,34 @@ Loguru
 pytest
 
 ✅ Instalação
+
 Clone o repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/seuusuario/BatchTool.git
 cd BatchTool
 Crie e ative um ambiente virtual:
 
-bash
-Copiar
-Editar
 python -m venv venv
 source venv/bin/activate  # ou .\venv\Scripts\activate no Windows
+
 Instale as dependências:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
+
 ▶️ Como Rodar
+
 🖥️ Modo GUI
-bash
-Copiar
-Editar
+
 python main.py
+
 🧪 Modo Dry Run (CLI)
+
 (Exemplo: processamento em lote sem interface)
 
-bash
-Copiar
-Editar
 python dry_run.py --input video.mp4 --output ./output/
+
 🎛️ Personalização da GUI (em desenvolvimento)
+
 Tema escuro
 
 Seleção de vozes TTS
